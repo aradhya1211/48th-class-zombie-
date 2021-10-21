@@ -20,22 +20,22 @@ var lose, winning, explosionSound;
 var bulletImg;
 function preload(){
   
-  heart1Img = loadImage("assets/heart_1.png")
-  heart2Img = loadImage("assets/heart_2.png")
-  heart3Img = loadImage("assets/heart_3.png")
+  heart1Img = loadImage("heart_1.png")
+  heart2Img = loadImage("heart_2.png")
+  heart3Img = loadImage("heart_3.png")
 
-  shooterImg = loadImage("assets/shooter_2.png")
-  shooter_shooting = loadImage("assets/shooter_3.png")
+  shooterImg = loadImage("shooter_2.png")
+  shooter_shooting = loadImage("shooter_3.png")
 
   bulletImg = loadImage("bullet2.png");
 
-  zombieImg = loadImage("assets/zombie.png")
+  zombieImg = loadImage("zombie.png")
 
-  bgImg = loadImage("assets/bg.jpeg")
+  bgImg = loadImage("bg.jpeg")
 
-  lose = loadSound("assets/lose.mp3")
-  winning = loadSound("assets/win.mp3")
-  explosionSound = loadSound("assets/explosion.mp3")
+  lose = loadSound("lose.mp3")
+  winning = loadSound("win.mp3")
+  explosionSound = loadSound("explosion.mp3")
 
 }
 
